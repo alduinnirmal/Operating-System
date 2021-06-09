@@ -3,7 +3,7 @@
 int main(void)
 {
 	struct dirent *de; 
-	DIR *dr = opendir(".");
+	DIR *dr = opendir("..");
 
 	if (dr == NULL) 
 	{
