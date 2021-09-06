@@ -2,7 +2,7 @@
 #include<sys/stat.h>
 int main()
 {
-  //pointer to stat struct
+  //pointer to stat struct-
   struct stat sfile;
 
   //stat system call
