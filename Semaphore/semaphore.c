@@ -5,6 +5,7 @@
 int buf[5], f, r;
 sem_t mutex, full, empty;
 void *produce(void *arg)
+
 {
     int i;
     for (i = 0; i < 10; i++)
